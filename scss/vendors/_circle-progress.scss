@@ -1,0 +1,17 @@
+.circle-progress {
+  position: relative;
+
+  .strong {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

@@ -1,0 +1,24 @@
+label {
+  &.error {
+    margin-top: -.5rem;
+    margin-left: .5rem;
+    padding: .25rem .5rem;
+    font-size: $small-font-size;
+    border-radius: 0 0 .4rem .4rem;
+    background: $danger;
+    color: $white;
+
+  }
+}
+
+input,textarea{
+
+  &.error {
+    border-color: $danger;
+    &:focus{
+      box-shadow: none;
+      border-color: $danger;
+      background: lightgoldenrodyellow;
+    }
+  }
+}

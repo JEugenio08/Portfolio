@@ -1,0 +1,27 @@
+.animated {
+  &.delay {
+    &-100ms {
+      animation-delay: 100ms;
+    }
+  }
+}
+
+.animation {
+  &-rotate {
+    animation: {
+      name: rotateme;
+      duration: 70s;
+      iteration-count: infinite;
+      timing-function: linear;
+    };
+  }
+}
+
+@keyframes rotateme {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

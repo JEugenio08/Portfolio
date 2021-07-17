@@ -1,0 +1,26 @@
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-title {
+  position: absolute;
+  font-size: 20vw;
+  top: 0;
+  left: 0;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba($black, .03);
+}
+
+footer {
+  a {
+    color: $white;
+
+    &:hover {
+      color: $primary
+    }
+  }
+}
